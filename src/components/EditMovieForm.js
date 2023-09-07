@@ -12,6 +12,7 @@ const EditMovieForm = (props) => {
   const [movie, setMovie] = useState({
     title: "",
     director: "",
+
     genre: "",
     metascore: 0,
     description: ""
