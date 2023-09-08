@@ -26,6 +26,7 @@ const App = (props) => {
   }, []);
 
   const deleteMovie = (id) => {
+    setMovies(movies.filter(item=>(item.id !== (id))));
   }
 
   const addToFavorites = (movie) => {
